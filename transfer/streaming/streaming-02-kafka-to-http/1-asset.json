@@ -1,13 +1,11 @@
 {
   "@context": { "@vocab": "https://w3id.org/edc/v0.0.1/ns/" },
-  "@id": "kafka-stream-asset",
+  "@id": "kafka-dsm-asset",
   "properties": {
   },
   "dataAddress": {
-    "type": "TemplatingKafka",
-    "templateName": "aTemplate",
-    "targetMediaType":"application/json",
-    "kafka.bootstrap.servers": "localhost:9092",
-    "topic": "kafka-stream-topic"
+    "type": "Kafka",
+    "kafka.bootstrap.servers": "localhost:9091",
+    "topic": "demand-supply-matching-start"
   }
 }

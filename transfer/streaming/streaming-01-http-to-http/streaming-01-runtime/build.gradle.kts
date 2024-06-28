@@ -38,6 +38,7 @@ dependencies {
     implementation(libs.edc.data.plane.core)
     implementation(libs.edc.data.plane.self.registration)
     implementation(libs.edc.data.plane.http)
+    api(files("locals/templating-connector.jar"))
 }
 
 application {

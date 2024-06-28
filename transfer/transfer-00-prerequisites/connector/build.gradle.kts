@@ -29,6 +29,7 @@ dependencies {
     implementation(libs.edc.configuration.filesystem)
     implementation(libs.edc.iam.mock)
     implementation(libs.edc.management.api)
+    implementation(libs.edc.data.plane.kafka)
     implementation(libs.edc.transfer.data.plane.signaling)
     implementation(libs.edc.transfer.pull.http.receiver)
     implementation(libs.edc.validator.data.address.http.data)
@@ -46,6 +47,9 @@ dependencies {
     implementation(libs.edc.data.plane.core)
     implementation(libs.edc.data.plane.http)
     implementation(libs.edc.data.plane.iam)
+    api(files("locals/templating-connector.jar"))
+    api(files("locals/stadion.jar"))
+    api(files("locals/remanet-ext.jar"))
 }
 
 application {

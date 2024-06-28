@@ -4,13 +4,13 @@
     "odrl": "http://www.w3.org/ns/odrl/2/"
   },
   "@type": "ContractRequest",
-  "counterPartyAddress": "http://localhost:18182/protocol",
+  "counterPartyAddress": "http://localhost:19194/protocol",
   "protocol": "dataspace-protocol-http",
   "policy": {
     "@context": "http://www.w3.org/ns/odrl.jsonld",
-    "@id": "{{offerId}}",
+    "@id": "Y29udHJhY3QtZGVmaW5pdGlvbg==:a2Fma2EtZHNtLWFzc2V0:YWQwYmRkMmMtNjFjZC00ZjQ1LWJlY2YtYWRlZDA5MTQyYTQ1",
     "@type": "Offer",
     "assigner": "provider",
-    "target": "kafka-stream-asset"
+    "target": "kafka-dsm-asset"
   }
 }

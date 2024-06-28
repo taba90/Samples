@@ -7,9 +7,9 @@
   "protocol": "dataspace-protocol-http",
   "policy": {
     "@context": "http://www.w3.org/ns/odrl.jsonld",
-    "@id": "{{contract-offer-id}}",
+    "@id": "Y29udHJhY3QtZGVmaW5pdGlvbg==:a2Fma2EtZHNtLWFzc2V0:NmNkMGE1YjQtNWM3My00NzBiLWFlZjMtMWRhZjg5NjgyOTI3",
     "@type": "Offer",
     "assigner": "provider",
-    "target": "assetId"
+    "target": "kafka-dsm-asset"
   }
 }
