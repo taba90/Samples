@@ -4,7 +4,7 @@
   "properties": {
   },
   "dataAddress": {
-    "type": "Kafka",
+    "type": "TemplatingKafka",
     "templateName": "aTemplate",
     "targetMediaType":"application/json",
     "kafka.bootstrap.servers": "localhost:9092",
