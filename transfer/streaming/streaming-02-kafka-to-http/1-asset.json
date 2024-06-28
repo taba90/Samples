@@ -5,6 +5,8 @@
   },
   "dataAddress": {
     "type": "Kafka",
+    "templateName": "aTemplate",
+    "targetMediaType":"application/json",
     "kafka.bootstrap.servers": "{{bootstrap.servers}}",
     "topic": "{{topic}}"
   }

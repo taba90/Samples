@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://w3id.org/edc/v0.0.1/ns/"
+  },
+  "@id": "assetIdTest",
+  "properties": {
+    "name": "product description",
+    "contenttype": "application/json"
+  },
+  "dataAddress": {
+    "type": "TemplatingHttpData",
+    "name": "Templating asset",
+    "targetMediaType":"application/json",
+    "templateName":"aTemplate",
+    "baseUrl": "https://jsonplaceholder.typicode.com/users",
+    "proxyPath": "true"
+  }
+}
