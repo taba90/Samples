@@ -39,8 +39,8 @@ dependencies {
     implementation(libs.edc.data.plane.self.registration)
     implementation(libs.edc.data.plane.http)
     implementation(libs.edc.data.plane.kafka)
-    implementation(files("locals/templating-data-plane.jar"))
-    implementation(files("locals/stadion.jar"))
+    implementation(files("repo-local/templating-data-plane.jar"))
+    implementation(files("repo-local/stadion.jar"))
 }
 
 application {
