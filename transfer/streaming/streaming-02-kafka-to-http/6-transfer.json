@@ -7,12 +7,12 @@
     "type": "HttpData",
     "method": "POST",
     "contentType": "application/json",
-    "baseUrl": "http://localhost:29295/remanet/demand-supply/match"
+    "baseUrl": "http://localhost:29296/remanet/demand-supply/match"
   },
   "protocol": "dataspace-protocol-http",
   "assetId": "kafka-dsm-asset",
-  "contractId": "e69ce5ea-3210-49d9-889d-8cfe8b7cda36",
+  "contractId": "5de2e27d-1a99-4a5a-9bc3-03273788fb32",
   "connectorId": "provider",
-  "counterPartyAddress": "http://localhost:19192/protocol",
+  "counterPartyAddress": "http://localhost:19194/protocol",
   "transferType": "HttpData-PUSH"
 }

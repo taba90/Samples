@@ -5,7 +5,7 @@
   },
   "dataAddress": {
     "type": "Kafka",
-    "kafka.bootstrap.servers": "localhost:9091",
+    "kafka.bootstrap.servers": "localhost:9092",
     "topic": "demand-supply-matching-start"
   }
 }
