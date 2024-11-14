@@ -10,7 +10,7 @@
     "baseUrl": "http://localhost:29296/remanet/demand-supply/match"
   },
   "protocol": "dataspace-protocol-http",
-  "assetId": "kafka-dsm-asset",
+  "assetId": "dsm-kafka",
   "contractId": "5de2e27d-1a99-4a5a-9bc3-03273788fb32",
   "connectorId": "provider",
   "counterPartyAddress": "http://localhost:19194/protocol",

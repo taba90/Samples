@@ -11,6 +11,6 @@
     "@id": "Y29udHJhY3QtZGVmaW5pdGlvbg==:a2Fma2EtZHNtLWFzc2V0:ZjE4YTM3ZTItOTc4Ny00MzA2LTllYTctYmNlMDM0MDIxM2Y4",
     "@type": "Offer",
     "assigner": "provider",
-    "target": "kafka-dsm-asset"
+    "target": "dsm-kafka"
   }
 }
